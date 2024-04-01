@@ -4,11 +4,23 @@ body{
     margin: 0;
     bottom: 0;
     font-size:medium;
+    background-image: url(./image/IMG-20240401-WA0041.jpg);
+    align-items: center;
+    justify-content: center;
+}
+
+.main{
+    margin-left: 30%;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    background: white;
+    border: 20px;
 }
 
 .header .sub{
     font-size: small;
-    margin-bottom: 50px;
+    margin-top: 1;
 }
 
 .head{
@@ -17,15 +29,16 @@ body{
 
 
 .header{
-    bottom: 1.3rem;
-    height: 10rem;
-    background-image: url("https://sitechecker.pro/wp-content/uploads/2023/06/404-status-code.png");
     align-items: center;
     justify-content: center;
-    position: relative;
-    display: flex;
-    gap: 5px;
-    color: white;
+    text-align: center;
+    background: white;
+    box-shadow:  20px 20px 60px #d6d6d6,
+             -20px -20px 60px #ffffff;
+}
+
+.header h1{
+    margin-top: 20px;
 }
 
 h2, h3{
@@ -35,6 +48,8 @@ h2, h3{
 
 .body-1{
     padding-left: 15px;
+    
+
 }
 
 .body-2 span{
@@ -45,6 +60,7 @@ h2, h3{
 
 .body-2{
     padding-left: 15px;
+    
 }
 .icon{
     display: flex;
@@ -63,4 +79,18 @@ h2, h3{
 .icons .property{
     padding-left: 7px;
     padding-top:5px ;
+}
+
+@media screen and (max-width: 768px) {
+    .main{
+        margin-left: 10%;
+        width: 400px;
+    }
+
+    .body-1{
+        padding-left: 5px;
+    }
+    .body-2{
+        padding-left: 5px;
+    }
 }
